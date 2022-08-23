@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main_css{
+    width: 90%;
+    min-height: 100vh;
+    margin: auto;
+    padding: 1rem 0;
+}
+
+.btn_group{
+    width: 100%;
+   display: flex;
+   margin-top: 1.5rem ;
+   justify-content: space-between;
+}
+
+.pri_btn{
+    border: 2px solid darkturquoise;
+    color: darkturquoise;
+    height: 2.5rem;
+    width: 30%; 
+    background-color: transparent; 
+    font-size: 1rem;
+    border-top-right-radius: 1rem;
+    cursor: pointer;
+    border-bottom-left-radius: 1rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+.btn_css{
+    height: 2.5rem;
+    width: 20%;
+    background-color: transparent;
+    border: 2px solid darkgoldenrod;
+    color: darkgoldenrod;
+    font-size: 1rem;
+    border-top-right-radius: 1rem;
+    cursor: pointer;
+    border-bottom-left-radius: 1rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.list_css{
+    width: 100%;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card_css{
+    width: 30%;
+    border-top-right-radius: 1.5rem;
+    margin: 1.5rem 0;
+   
+    padding: 1rem;
+    border: 2px solid darkgoldenrod;
+    border-bottom-left-radius: 1.5rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.img_css{
+width: 100%;
+height: 180px;
+}
+.title{
+margin: 1.5rem;
+text-align: center;
+}
+.desc{
+text-align: justify;
+font-size: .9rem;
+line-height: 1.5rem;
+}
+.footer{
+display: flex;
+justify-content:space-between ;
+margin-top: 1rem ;
+}
+
+.footer>span{
+background-color: aqua;
+padding: .5rem 1rem;
+font-size: 1rem;
+}
